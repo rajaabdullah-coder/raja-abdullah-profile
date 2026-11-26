@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dr. Raja Abdullah Raja Ahmad, UniMAP</title>
+<meta name="description" content="Dr. Raja Abdullah Raja Ahmad, Senior Lecturer at the Faculty of Intelligent Computing, Universiti Malaysia Perlis (UniMAP). Research in computer vision, Edge AI, IoT and machine learning.">
+<meta property="og:title" content="Dr. Raja Abdullah Raja Ahmad">
+<meta property="og:description" content="Senior Lecturer, Faculty of Intelligent Computing, UniMAP. Computer vision, Edge AI, IoT and machine learning.">
+<meta property="og:image" content="photo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Serif:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#15305C;--navy-2:#0E2244;--ink:#1B2230;--muted:#5A6475;--rule:#D8DEE6;--bg:#F6F8FB;--paper:#FFFFFF;--signal:#2FB58A;--gold:#A67C12;--silver:#6F7782;
+--sans:"IBM Plex Sans",system-ui,sans-serif;--serif:"IBM Plex Serif",Georgia,serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--sans)}
+a{color:var(--navy)}a:hover{color:var(--navy-2)}
+:focus-visible{outline:3px solid var(--signal);outline-offset:2px}
+.wrap{display:grid;grid-template-columns:300px 1fr;min-height:100vh}
+aside{background:var(--navy);color:#E9EEF6;padding:48px 32px;position:sticky;top:0;height:100vh;overflow:auto}
+.frame{position:relative;width:176px;margin:0 0 28px}
+.frame img{display:block;width:176px;height:224px;object-fit:cover;filter:saturate(.95)}
+.frame i{position:absolute;width:22px;height:22px;border:2px solid var(--signal)}
+.frame i:nth-child(2){top:-8px;left:-8px;border-right:0;border-bottom:0}
+.frame i:nth-child(3){top:-8px;right:-8px;border-left:0;border-bottom:0}
+.frame i:nth-child(4){bottom:-8px;left:-8px;border-right:0;border-top:0}
+.frame i:nth-child(5){bottom:-8px;right:-8px;border-left:0;border-top:0}
+@media (prefers-reduced-motion:no-preference){.frame i{animation:lock .9s cubic-bezier(.2,.7,.2,1) both .2s}
+.frame i:nth-child(2){--x:-10px;--y:-10px}.frame i:nth-child(3){--x:10px;--y:-10px}.frame i:nth-child(4){--x:-10px;--y:10px}.frame i:nth-child(5){--x:10px;--y:10px}
+@keyframes lock{from{opacity:0;transform:translate(var(--x),var(--y))}to{opacity:1;transform:none}}}
+aside h1{font:600 1.55rem/1.2 var(--serif);margin:0 0 8px;color:#fff}
+aside .role{margin:0 0 4px;color:#C9D4E5}
+aside .fac{margin:0 0 20px;color:#A9B7CC;font-size:.92rem}
+aside .mail{display:inline-block;color:#fff;text-decoration:none;border-bottom:1px solid var(--signal);padding-bottom:2px;font-size:.95rem}
+aside nav{margin-top:32px;border-top:1px solid rgba(255,255,255,.15);padding-top:20px}
+aside nav a{display:block;color:#C9D4E5;text-decoration:none;padding:5px 0;font-size:.95rem}
+aside nav a:hover{color:#fff}
+main{padding:56px 64px 80px;max-width:880px}
+section{padding:8px 0 40px;scroll-margin-top:24px}
+h2{font:600 1.5rem/1.25 var(--serif);color:var(--navy);margin:0 0 18px;padding-bottom:10px;border-bottom:1px solid var(--rule)}
+h3{font:600 1.02rem/1.4 var(--sans);margin:24px 0 10px;color:var(--ink)}
+p{margin:0 0 12px}.lede{font-size:1.1rem;max-width:68ch}
+.facts{display:flex;flex-wrap:wrap;gap:0;margin:24px 0 0;padding:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.facts div{flex:1 1 120px;padding:14px 16px 14px 0}
+.facts dt{font:600 1.6rem/1.1 var(--serif);color:var(--navy)}.facts dd{margin:4px 0 0;color:var(--muted);font-size:.88rem}
+.interests{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0}
+.interests li{border:1px solid var(--rule);background:var(--paper);padding:5px 12px;border-radius:999px;font-size:.93rem}
+ol.pubs{padding-left:1.4em;margin:0}ol.pubs li{margin:0 0 12px;max-width:78ch}ol.pubs li::marker{color:var(--muted)}
+.note{color:var(--muted);font-size:.88rem}
+ul.plain{list-style:none;padding:0;margin:0}
+.grant{display:grid;grid-template-columns:1fr auto;gap:16px;padding:14px 0;border-bottom:1px solid var(--rule)}
+.g-title{font-weight:500;margin:0 0 4px}.g-meta,.m-ev{margin:0;color:var(--muted);font-size:.9rem}
+.g-meta span+span,.m-ev span+span{margin-left:14px;padding-left:14px;border-left:1px solid var(--rule)}
+.g-side{text-align:right;white-space:nowrap}.amt{display:block;font-weight:600;color:var(--ink)}
+.role{font-size:.85rem;color:var(--muted)}.role.lead{color:var(--navy);font-weight:600}
+.rows li{display:grid;grid-template-columns:56px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--rule)}
+.rows .yr{color:var(--navy);font-weight:600;font-variant-numeric:tabular-nums}
+.medal{grid-template-columns:56px 64px 1fr !important}
+.m{font-size:.85rem;font-weight:600;align-self:start;padding-top:1px}.m.gold{color:var(--gold)}.m.silver{color:var(--silver)}
+.m-title{margin:0 0 2px}
+table{width:100%;border-collapse:collapse;font-size:.95rem}
+th{text-align:left;font-weight:600;color:var(--muted);font-size:.85rem;padding:8px 10px 8px 0;border-bottom:1px solid var(--ink)}
+td{padding:10px 10px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+td.code{font-weight:600;color:var(--navy);white-space:nowrap}.nowrap{white-space:nowrap}
+details{border-bottom:1px solid var(--rule)}
+summary{cursor:pointer;padding:12px 0;font-weight:600;list-style:none;display:flex;justify-content:space-between}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--navy);font-weight:400;font-size:1.2rem;line-height:1}
+details[open] summary::after{content:"–"}
+details ul{margin:0 0 16px;padding-left:1.2em}details li{margin:0 0 8px;max-width:78ch}
+.timeline li{grid-template-columns:150px 1fr !important}
+footer{margin-top:24px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--rule);padding-top:16px}
+@media (max-width:900px){.wrap{grid-template-columns:1fr}
+aside{position:static;height:auto;padding:32px 24px;display:grid;grid-template-columns:120px 1fr;gap:0 24px;align-items:start}
+.frame{width:120px;margin:8px 0 0}.frame img{width:120px;height:153px}
+aside nav{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:4px 16px}
+main{padding:32px 22px 60px}
+.grant{grid-template-columns:1fr}.g-side{text-align:left}.amt{display:inline;margin-right:10px}
+.timeline li{grid-template-columns:1fr !important;gap:2px}
+.g-meta span,.m-ev span{display:block}.g-meta span+span,.m-ev span+span{margin:0;padding:0;border:0}}
+@media (max-width:520px){aside{grid-template-columns:1fr}.frame{margin:8px 0 24px}.medal{grid-template-columns:44px 1fr !important}.medal .m{grid-column:2}.medal div{grid-column:2}
+table th:nth-child(4),table td:nth-child(4){display:none}}
+@media print{aside{position:static;height:auto}aside nav{display:none}.wrap{display:block}details{open:true}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<aside>
+  <div class="frame"><img src="photo.jpg" alt="Portrait of Dr. Raja Abdullah Raja Ahmad"><i></i><i></i><i></i><i></i></div>
+  <div>
+    <h1>Dr. Raja Abdullah Raja Ahmad</h1>
+    <p class="role">Senior Lecturer, PhD (Computer Engineering)</p>
+    <p class="fac">Faculty of Intelligent Computing, Universiti Malaysia Perlis (UniMAP)</p>
+    <a class="mail" href="mailto:rajaabdullah@unimap.edu.my">rajaabdullah@unimap.edu.my</a>
+  </div>
+  <nav aria-label="Sections">
+    <a href="#about">About</a><a href="#publications">Publications</a><a href="#grants">Research grants</a><a href="#ip">Intellectual property</a>
+    <a href="#awards">Awards</a><a href="#teaching">Teaching and supervision</a><a href="#service">Service and evaluation</a><a href="#industry">Industry</a><a href="#career">Education and career</a>
+  </nav>
+</aside>
+<main>
+<section id="about">
+  <h2>About</h2>
+  <p class="lede">I build computer vision and Edge AI systems that run on small, affordable hardware, and put them to work in biometrics and smart agriculture.</p>
+  <p>I am a Senior Lecturer at the Faculty of Intelligent Computing, Universiti Malaysia Perlis. My PhD (2022) developed independent LBP feature fusion for face recognition. Since then my work has moved from the lab into farms, factories and rail: IoT fertigation and spraying systems, silage and mushroom monitoring, and embedded sub-systems for KTM trains. I welcome collaboration with industry and enquiries from prospective postgraduate students.</p>
+  <dl class="facts">
+    <div><dt>4</dt><dd>Journal articles</dd></div>
+    <div><dt>8</dt><dd>Conference papers</dd></div>
+    <div><dt>13</dt><dd>Research grants, 3 as leader</dd></div>
+    <div><dt>17</dt><dd>Innovation medals, 13 gold</dd></div>
+    <div><dt>5</dt><dd>Copyrights (MyIPO)</dd></div>
+  </dl>
+  <h3>Research interests</h3>
+  <ul class="interests"><li>Computer vision and image processing</li><li>Edge AI</li><li>Machine learning and deep learning</li><li>Internet of Things</li><li>Embedded system design</li><li>Pattern and biometric recognition</li><li>Smart agriculture</li></ul>
+</section>
+<section id="publications">
+  <h2>Publications</h2>
+  <h3>Journal articles</h3><ol class="pubs"><li>Quah, X. Y., <strong>Ahmad, R. A. R.</strong>, Ahmad, M. I., Ahmad, Z. Z., Abdul Halim, A. A., &amp; Nasrudin, M. W. (2025). Haar-VGG: Face attendance system. International Journal of Integrated Engineering, 17(2), 246–256.</li><li>Nasrudin, M. W., Zainuddin, N. S. A., <strong>Ahmad, R. A. R.</strong>, Yob, R. C., Ahmad, M. Z. Z., Mustafa, W. A., Veeraperumal, V., &amp; Zulkifli, N. D. M. (2023). Smart management waiting system for outpatient clinic. Journal of Advanced Research in Applied Sciences and Engineering Technology, 4, 48–61.</li><li><strong>Ahmad, R. A. R.</strong>, Ahmad, M. I., Isa, M. N. M., &amp; Anwar, S. A. (2019). Face recognition using assemble of low frequency of DCT features. Bulletin of Electrical Engineering and Informatics, 8(2), 541–550.</li><li>Ahmad, M. I., Ngadiran, R., Isa, M. N. M., Isa, N. A. M., Ilyas, M. Z., <strong>Ahmad, R. A. R.</strong>, Ab Hamid, S. A. A., &amp; Jusoh, M. (2015). Local spectrum feature extraction for face recognition. World Academy of Science, Engineering and Technology: International Journal of Computer, Electrical, Automation, Control and Information Engineering, 9(1).</li></ol>
+  <h3>Conference proceedings</h3><ol class="pubs"><li>Azol, M. E., Ahmad, M. I., Isa, M. N. M., Chow, T. S., <strong>Ahmad, R. A. R.</strong>, &amp; Saputri, F. R. (2025, August 2). Adaptive ROI optimization for robust contactless palmprint recognition. In 2025 IEEE 16th Control and System Graduate Research Colloquium (ICSGRC) (pp. 167–171). IEEE.</li><li>Fong, P. Y., <strong>Ahmad, R. A. R.</strong>, Ahmad, M. I., &amp; Ahmad, M. Z. Z. (2024, September 1). IoT-based fertilizer system for crop cultivation. In International Conference on Electronic Design (pp. 517–530). Springer Nature Switzerland.</li><li>Ahmad, M. Z. Z., Hamdi, M. H. B., Abdul Halim, A. A., Nasrudin, M. W. B., Othman, R. R., <strong>Ahmad, R. A. R.</strong>, &amp; Mat Salleh, S. (2024, September 1). IoT warning system for early forest fire detection. In International Conference on Electronic Design (pp. 409–420). Springer Nature Switzerland.</li><li>Amin, M. F. M., <strong>Ahmad, R. A. R.</strong>, Halim, A. A. A., &amp; Ahmad, M. I. (2024). A study on feature extraction methods for effective malware detection: DCT, LBP, and HOG. In International Conference on Electronic Design (pp. 339–348). Springer Nature Switzerland.</li><li>Khalid, N. A. A., Ahmad, M. I., Mandeel, T. H., Isa, M. N. M., <strong>Ahmad, R. A. R.</strong>, &amp; Al-Dabagh, M. Z. N. (2021). Palmprint ROI cropping based on enhanced correlation coefficient maximisation algorithm. In 2021 IEEE 11th International Conference on System Engineering and Technology (ICSET) (pp. 269–274). IEEE.</li><li>Mohsin, I. S., Ahmad, M. I., Salman, S. M., Al-Dabagh, M. Z. N., Isa, M. N. M., &amp; <strong>Ahmad, R. A. R.</strong> (2019). DCT image compression implemented on Raspberry Pi to compress image captured by CMOS image sensor. In National Technical Seminar on Unmanned System Technology (pp. 831–841). Springer Nature Singapore.</li><li><strong>Ahmad, R. A. R.</strong>, Ahmad, M. I., Anwar, S. A., &amp; Isa, M. N. M. (2019). A new framework of feature extraction to capture underlying statistical information in image histogram. In 2019 IEEE 9th International Conference on System Engineering and Technology (ICSET) (pp. 114–119). IEEE.</li><li>Azuwam, A. A. A., Ahmad, M. I., Isa, M. N. M., Ilyas, M. Z., &amp; <strong>Ahmad, R. A. R.</strong> (2017). Lossy compression of biometric images implemented using floating point DSP processor. In MATEC Web of Conferences (Vol. 140, p. 01012). EDP Sciences.</li></ol>
+  <h3>Theses</h3>
+  <ol class="pubs"><li>A New Independent LBP Features Fusion for Face Recognition System. PhD thesis, Universiti Malaysia Perlis, 2022.</li>
+  <li>Face Recognition System Using DCT Features Implemented on DSP Processor. MSc thesis, Universiti Malaysia Perlis, 2015.</li></ol>
+</section>
+<section id="grants">
+  <h2>Research grants</h2>
+  <ul class="plain"><li class="grant"><div class="g-main"><p class="g-title">Smart Venturi Fertilizer Injection System</p><p class="g-meta"><span>Industry Matching Program (IMaP), KPT and industry</span><span>03/2025 – 03/2027</span></p></div><div class="g-side"><span class="amt">RM128,000</span><span class="role lead">Project Leader</span></div></li><li class="grant"><div class="g-main"><p class="g-title">IoT-Based Fertilizer Mixing System for Grapes Cultivation Under Controlled Environment</p><p class="g-meta"><span>Industrial grant</span><span>03/2023 – 03/2025</span></p></div><div class="g-side"><span class="amt">RM5,000</span><span class="role lead">Project Leader</span></div></li><li class="grant"><div class="g-main"><p class="g-title">IoT-Based Fertilizer Sensory System for Strawberry Cultivation</p><p class="g-meta"><span>University grant</span><span>06/2023 – 05/2025</span></p></div><div class="g-side"><span class="amt">RM20,000</span><span class="role lead">Project Leader</span></div></li><li class="grant"><div class="g-main"><p class="g-title">Empowering Agropreneurs: A Smart Solar-Powered Irrigation System for TVET Farmers</p><p class="g-meta"><span>IEEE HTB SIGHT (international)</span><span>11/2026 – 10/2027</span></p></div><div class="g-side"><span class="amt">USD7,842</span><span class="role">Co-Researcher</span></div></li><li class="grant"><div class="g-main"><p class="g-title">Sistem Automatik Akuakultur-Pertanian untuk Komuniti Asnaf (UniMAP–Thursinar–ATAM pilot)</p><p class="g-meta"><span>Akademi Transformasi Asnaf MAIPs (ATAM)</span><span>11/2026 – 10/2027</span></p></div><div class="g-side"><span class="amt">RM11,025</span><span class="role">Co-Researcher</span></div></li><li class="grant"><div class="g-main"><p class="g-title">Solar-Powered Smart IoT Monitoring for Freshwater Lobster Aquaculture, Kampung Padang Keria Timur</p><p class="g-meta"><span>Dana Penyelidikan Kajian Sosial, KPT</span><span>09/2025 – 06/2026</span></p></div><div class="g-side"><span class="amt">RM81,500</span><span class="role">Co-Researcher</span></div></li><li class="grant"><div class="g-main"><p class="g-title">Precision Monitoring and Autonomous Control of Indoor Environmental Parameters Using High-Performance Edge Computing</p><p class="g-meta"><span>Future Farm Solution Sdn Bhd</span><span>07/2025 – 07/2027</span></p></div><div class="g-side"><span class="amt">RM50,000</span><span class="role">Co-Researcher</span></div></li><li class="grant"><div class="g-main"><p class="g-title">Heavy Duty Pesticide and Fertilizer Spraying Robot</p><p class="g-meta"><span>Industry Matching Program (IMaP), KPT and industry</span><span>12/2024 – 06/2026</span></p></div><div class="g-side"><span class="amt">RM153,000</span><span class="role">Co-Researcher</span></div></li><li class="grant"><div class="g-main"><p class="g-title">Kajian Pembangunan Kebun IoT Nuri Nutrisi Bank Rakyat – UniMAP</p><p class="g-meta"><span>Industrial grant</span><span>01/2023 – 01/2024</span></p></div><div class="g-side"><span class="amt">RM20,500</span><span class="role">Co-Researcher</span></div></li><li class="grant"><div class="g-main"><p class="g-title">Program Incubator Top Agropreneur</p><p class="g-meta"><span>Government grant</span><span>08/2023 – 05/2024</span></p></div><div class="g-side"><span class="amt">RM30,000</span><span class="role">Co-Researcher</span></div></li><li class="grant"><div class="g-main"><p class="g-title">Computer Vision Based Pest Control in Smart Farming</p><p class="g-meta"><span>UniPRIMA</span><span>09/2021 – 08/2023</span></p></div><div class="g-side"><span class="amt">—</span><span class="role">Co-Researcher</span></div></li><li class="grant"><div class="g-main"><p class="g-title">Fault Detection of Paddle Wheel and Dissolved Oxygen Monitor System</p><p class="g-meta"><span>MTUN</span><span>12/2019 – 06/2021</span></p></div><div class="g-side"><span class="amt">—</span><span class="role">Co-Researcher</span></div></li><li class="grant"><div class="g-main"><p class="g-title">Biometric Facial Recognition</p><p class="g-meta"><span>Flextronics</span><span>08/2019 – 07/2020</span></p></div><div class="g-side"><span class="amt">—</span><span class="role">Co-Researcher</span></div></li></ul>
+</section>
+<section id="ip">
+  <h2>Intellectual property</h2>
+  <ul class="plain rows"><li><span class="yr">2026</span><div><p class="m-title">Smart IoT-Based Production Output and Defective Product Detection System</p><p class="m-ev"><span>Copyright, literary work</span><span>MyIPO LY2026E09159</span></p></div></li><li><span class="yr">2026</span><div><p class="m-title">SRI-SENSE: The Intelligent Silage Monitoring System</p><p class="m-ev"><span>Copyright, literary work</span><span>MyIPO CRLY2026E06666</span></p></div></li><li><span class="yr">2026</span><div><p class="m-title">Design and Development of T-Way Test Suite Generator Adopting Sewing Training Based Optimization Algorithm</p><p class="m-ev"><span>Copyright, literary work</span><span>MyIPO CRLY2026E05318</span></p></div></li><li><span class="yr">2026</span><div><p class="m-title">FUZZY-MEDCARE: Fuzzy Logic-Based Health Monitoring and Emergency Detection for Home Bedridden Patients</p><p class="m-ev"><span>Copyright, literary work</span><span>MyIPO CRLY2026E02231</span></p></div></li><li><span class="yr">2024</span><div><p class="m-title">IoT Smart Fertigation System for Ginger Farm</p><p class="m-ev"><span>Copyright, literary work</span><span>MyIPO CRLY2024P02419</span></p></div></li></ul>
+</section>
+<section id="awards">
+  <h2>Awards</h2>
+  <h3>Recognition</h3><ul class="plain rows">
+  <li><span class="yr">2026</span><div><p class="m-title">Anugerah Perkhidmatan Cemerlang (Excellent Service Award) 2025</p><p class="m-ev">Majlis Anugerah Seri Gemilang, UniMAP</p></div></li>
+  <li><span class="yr">2026</span><div><p class="m-title">Anugerah Sanjungan Budi</p><p class="m-ev">For contributions to co-curricular STEM activities, SMK Changlun, Kedah</p></div></li></ul>
+  <h3>Innovation and exhibition medals</h3>
+  <ul class="plain rows"><li class="medal"><span class="yr">2026</span><span class="m gold">Gold</span><div><p class="m-title">SMARTMUSHROOM: AI-Driven Environmental Control System for Precision Mushroom Farming</p><p class="m-ev">Asian Youth Innovation Awards, 25th Malaysia Technology Expo (MTE)</p></div></li><li class="medal"><span class="yr"></span><span class="m gold">Gold</span><div><p class="m-title">Smart Mushroom: AI-Driven Environmental Control System for Precision Mushroom Farming</p><p class="m-ev">Perlis International Engineering Invention &amp; Innovation Exhibition (Pi-ENVEX)</p></div></li><li class="medal"><span class="yr"></span><span class="m gold">Gold</span><div><p class="m-title">SRI-SENSE: The Intelligent Silage Monitoring System</p><p class="m-ev">International Virtual Expo of Innovation and System Design (INVIDE)</p></div></li><li class="medal"><span class="yr"></span><span class="m gold">Gold</span><div><p class="m-title">FUZZY-MEDCARE: Fuzzy Logic-Based Health Monitoring and Emergency Detection for Home Bedridden Patients</p><p class="m-ev">E-REKA, UniMAP</p></div></li><li class="medal"><span class="yr"></span><span class="m silver">Silver</span><div><p class="m-title">IoT-Based Sensor System for In-Situ Monitoring of Maize Crop Residue Silage Fermentation</p><p class="m-ev">E-REKA, UniMAP</p></div></li><li class="medal"><span class="yr"></span><span class="m silver">Silver</span><div><p class="m-title">Palmprint Recognition Using Fusion of Local Binary Pattern and Principal Component Analysis</p><p class="m-ev">E-REKA, UniMAP</p></div></li><li class="medal"><span class="yr">2025</span><span class="m gold">Gold</span><div><p class="m-title">Heavy Duty Agriculture Robot</p><p class="m-ev">E-REKA, UniMAP</p></div></li><li class="medal"><span class="yr">2024</span><span class="m gold">Gold</span><div><p class="m-title">Smart Paddy Soil Tester</p><p class="m-ev">E-REKA, UniMAP</p></div></li><li class="medal"><span class="yr"></span><span class="m silver">Silver</span><div><p class="m-title">IoT Warning System for Early Forest Fire Detection</p><p class="m-ev">E-REKA, UniMAP</p></div></li><li class="medal"><span class="yr">2022</span><span class="m gold">Gold</span><div><p class="m-title">i-DOSS: IoT-Based Dissolved Oxygen Sensor System</p><p class="m-ev">International Invention, Innovation &amp; Technology Exhibition (ITEX)</p></div></li><li class="medal"><span class="yr"></span><span class="m gold">Gold</span><div><p class="m-title">In-Situ Soil Nutrients Tester</p><p class="m-ev">Virtual Research &amp; Innovation Exhibition (E-REKA)</p></div></li><li class="medal"><span class="yr"></span><span class="m gold">Gold</span><div><p class="m-title">i-DOSS: IoT-Based Dissolved Oxygen Sensor System</p><p class="m-ev">Virtual Research &amp; Innovation Exhibition (E-REKA)</p></div></li><li class="medal"><span class="yr">2020</span><span class="m gold">Gold</span><div><p class="m-title">The Integrated System: Slope Monitoring Using IoT Platform</p><p class="m-ev">Virtual Expo of Innovation and System Design (VIDE)</p></div></li><li class="medal"><span class="yr"></span><span class="m gold">Gold</span><div><p class="m-title">Biometric Recognition and Thermal Camera Scanner</p><p class="m-ev">Malaysia Technology Expo (MTE)</p></div></li><li class="medal"><span class="yr">2017</span><span class="m gold">Gold</span><div><p class="m-title">Face Sketch Recognition for Application in Law Enforcement</p><p class="m-ev">International Invention, Innovation &amp; Technology Exhibition (ITEX)</p></div></li><li class="medal"><span class="yr"></span><span class="m gold">Gold</span><div><p class="m-title">Mobile Multipurpose Embedded System Training Board</p><p class="m-ev">National Competition, Innovation &amp; Invention on Robotic &amp; Embedded System (NIRES)</p></div></li><li class="medal"><span class="yr"></span><span class="m silver">Silver</span><div><p class="m-title">Interclass Durian Variety Classification Tool</p><p class="m-ev">Malaysia Technology Expo (MTE)</p></div></li></ul>
+</section>
+<section id="teaching">
+  <h2>Teaching and supervision</h2>
+  <table><thead><tr><th>Code</th><th>Course</th><th>Role</th><th>Sessions</th></tr></thead><tbody><tr><td class="code">IMJ31303</td><td>Digital Signal Processing</td><td>Coordinator</td><td class="nowrap">2025/26 – present</td></tr><tr><td class="code">ISC10903</td><td>Data Analytics for Electronics (postgraduate)</td><td>Team teaching</td><td class="nowrap">2026/27</td></tr><tr><td class="code">IMJ32004</td><td>Integrated Design Project</td><td>Coordinator</td><td class="nowrap">2025/26</td></tr><tr><td class="code">IMJ32104</td><td>Embedded Systems Design</td><td>Team teaching</td><td class="nowrap">2025/26</td></tr><tr><td class="code">NMJ31403</td><td>Digital Signal Processing</td><td>Coordinator</td><td class="nowrap">2022/23 – 2024/25</td></tr><tr><td class="code">NMJ31903</td><td>Group Design Project</td><td>Coordinator</td><td class="nowrap">2022/23 – 2024/25</td></tr><tr><td class="code">NMJ32404</td><td>Embedded System Design</td><td>Team teaching</td><td class="nowrap">2022/23 – 2024/25</td></tr></tbody></table>
+  <h3>Postgraduate supervision</h3>
+  <ul class="plain rows"><li><span class="yr">2023</span><div><p class="m-title">A Computational Approach for Malware Image Recognition Using Machine Learning Technique in Cyber Security Application</p><p class="m-ev"><span>Mohd Fikri bin Mohd Amin</span><span>MSc (Computer Engineering), main supervisor</span></p></div></li><li><span class="yr">2023</span><div><p class="m-title">Machine Learning-Based Image Recognition for Malware Detection in Cybersecurity Application for Mobile Application</p><p class="m-ev"><span>Ahmad Fauzan bin Azini</span><span>MSc (Computer Engineering), main supervisor</span></p></div></li></ul>
+</section>
+<section id="service">
+  <h2>Service and evaluation</h2>
+  <details open><summary>Examination, evaluation and review</summary><ul><li>Internal Examiner, MSc (Computer Engineering) thesis, Faculty of Intelligent Computing, UniMAP (viva voce 18/08/2026).</li><li>Assessor, MSc (Computer Engineering) Research Proposal Defence, FKC, UniMAP (2026).</li><li>Evaluator Panel, PPRN (Ministry of Higher Education), project 2026/UniMAP/2130 (appointed 08/08/2026).</li><li>Reviewer and Technical Program Committee (TPC) Member, 2026 International Conference on Advances in Artificial Intelligence (AAI 2026), UniMAP, Track 5: Applied AI &amp; Intelligent Technologies – 2 papers reviewed (official acknowledgement 23/11/2026).</li><li>Reviewer, 8th International Conference on Electronic Design (ICED 2026), 17/09/2026 – 18/09/2026, Penang – 2 papers reviewed.</li></ul></details>
+  <details><summary>Faculty of Intelligent Computing</summary><ul><li>Member, Research &amp; Innovation Committee, FKC (01/10/2025 – 31/12/2026).</li><li>Member, Promotion &amp; Multimedia Committee, FKC (01/10/2025 – 31/12/2026).</li><li>Member, Laboratory Asset Procurement Planning Committee, FKC – Third Rolling Plan (RP3), 13th Malaysia Plan (RMK-13) (01/09/2026 – 31/08/2027).</li><li>Supervisor, IMJ32004 Integrated Design Project (IDP) student group (Sem 2, 2025/26).</li><li>Panel Member, IMJ32004 IDP Rubric Refinement (23/04/2026).</li><li>Academic Judge, IDP – Undergraduate Project Exhibition (UPEx 2026) (11/06/2026).</li><li>Promotion Committee, Workshop on Basic Mathematical Optimization Research: Do It Right (29/07/2026).</li></ul></details>
+  <details><summary>Universiti Malaysia Perlis</summary><ul><li>Faculty Alumni Coordinator (FKC), Alumni Relations Centre, UniMAP (01/10/2026 – 30/09/2028).</li><li>Faculty Alumni Coordinator (FKC), Alumni Relations Centre, UniMAP (01/10/2025 – 30/09/2026).</li><li>Coordinator, Board of Engineers Malaysia (BEM) Registration, Alumni Relations Centre (appointed 13/01/2026).</li><li>Committee Member (UPEx/IAP Day), UniMAP FutureX 2026 (appointed 22/05/2026).</li><li>Secretariat, UniMAP NextGen Tour @ Negeri Sembilan 2026 (21/07/2026 – 23/07/2026).</li><li>Committee Member (Judging), Ekspo Cipta 2026 (X-CIPTA 2026) (Jul – Oct 2026).</li><li>Faculty Coordinator (FKC), Meet &amp; Greet Alumni PALAPES UniMAP 2026 (11/09/2026).</li><li>Faculty Coordinator (FKC), Program Santai Alumni Version MADANI 2026 – national level (Oct 2026).</li><li>Secretariat, Alumni Homecoming 2026 (Nov 2026).</li></ul></details>
+  <details><summary>Community and industry</summary><ul><li>Advisor and Expert Referee, Robotics &amp; Innovation Competitions (district, state and international levels), SMK Changlun – “Soil Nutrients Tester” project (2026).</li><li>Main Supervisor, industry-collaborated final year project with Arbaah Sdn Bhd: AI-Based Real-Time Freshwater Lobster Counting System Using Computer Vision (2026).</li></ul></details>
+</section>
+<section id="industry">
+  <h2>Industry</h2>
+  <h3>Consultancy</h3><ul class="plain rows"><li><span class="yr">2026</span><div><p class="m-title">Megah Agro Sdn Bhd</p><p class="m-ev">IoT consultation for tube-well monitoring and control</p></div></li><li><span class="yr">2023 – 2025</span><div><p class="m-title">MNF Infra Sdn Bhd</p><p class="m-ev">IoT smart sensor and cybersecurity consultation</p></div></li><li><span class="yr">2023 – 2024</span><div><p class="m-title">Fokus Murni Sdn Bhd</p><p class="m-ev">Driver Alert System (DAS) sub-system for KTM Class 83 EMU</p></div></li><li><span class="yr">2015 – 2016</span><div><p class="m-title">Fokus Murni Sdn Bhd</p><p class="m-ev">Public announcement system (Sistem Siaraya) for KTM Class 83 EMU</p></div></li></ul>
+  <details><summary>Invited talks and training</summary><ul><li>Robotic Camp STEM Education, Masjid Tradisi, Changlun, Kedah, 25/11/2018. Trainer.</li><li>Invited to train Linux Administration – Beginner, Masdar Technologies, Alor Setar, Kedah, 14/11/2018 – 15/11/2018. Trainer.</li><li>Invited to train Microcontroller Programming – Intermediate, Politeknik Seberang Perai, Penang, Apr 2016. Co-trainer.</li><li>Invited to give a talk “Knowledge Sharing: C Programming”, Politeknik Tuanku Syed Sirajuddin, Arau, Perlis, 23/03/2016. Co-trainer.</li><li>Invited to give a talk “Knowledge Sharing: C Programming”, Politeknik Tuanku Syed Sirajuddin, Arau, Perlis, 04/10/2015. Co-trainer.</li><li>Invited to train Visual Basic Programming, Politeknik Tuanku Syed Sirajuddin, Arau, Perlis, 21/03/2014. Co-trainer.</li><li>Invited to give a technology talk and demonstration, Sekolah Kebangsaan Sena, Kangar, Perlis, 06/12/2013. Co-trainer.</li><li>Invited to train PIC microcontroller programming, Politeknik Tuanku Sultanah Bahiyah, Kulim, Kedah, Mar 2013. Co-trainer.</li></ul></details>
+</section>
+<section id="career">
+  <h2>Education and career</h2>
+  <ul class="plain rows timeline">
+   <li><span class="yr">2025 – present</span><div><p class="m-title">Senior Lecturer, Faculty of Intelligent Computing, UniMAP</p></div></li>
+   <li><span class="yr">2022 – 2025</span><div><p class="m-title">Senior Lecturer, Fakulti Teknologi Kejuruteraan Elektronik, UniMAP</p></div></li>
+   <li><span class="yr">2022</span><div><p class="m-title">PhD in Computer Engineering, Universiti Malaysia Perlis</p></div></li>
+   <li><span class="yr">2016 – 2022</span><div><p class="m-title">Academic Fellow, School of Computer and Communication Engineering, UniMAP</p></div></li>
+   <li><span class="yr">2015</span><div><p class="m-title">MSc in Embedded System Design Engineering, Universiti Malaysia Perlis</p></div></li>
+   <li><span class="yr">2012 – 2013</span><div><p class="m-title">Research Assistant, School of Electrical System Engineering, UniMAP</p></div></li>
+   <li><span class="yr">2012</span><div><p class="m-title">BEng in Computer Engineering, Universiti Malaysia Perlis</p></div></li>
+  </ul>
+  <h3>Professional membership</h3>
+  <ul class="plain rows timeline">
+   <li><span class="yr">2013 – present</span><div><p class="m-title">Board of Engineers Malaysia (BEM), 85924A</p></div></li>
+   <li><span class="yr">2009 – present</span><div><p class="m-title">Persatuan Fiber Optik Malaysia (FOAM)</p></div></li></ul>
+</section>
+<footer>Last updated November 2026. For collaboration or supervision enquiries, email <a href="mailto:rajaabdullah@unimap.edu.my">rajaabdullah@unimap.edu.my</a>.</footer>
+</main>
+</div>
+</body>
+</html>
