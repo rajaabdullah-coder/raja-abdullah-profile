@@ -1,0 +1,8 @@
+{
+  // Cloudflare Workers static site: serves the files in this folder as-is
+  "name": "raja-abdullah-profile",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./"
+  }
+}
